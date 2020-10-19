@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20201009T113000Z
+DTEND:20201009T130000Z
+DTSTAMP:20201008T155527Z
+ORGANIZER;CN=media@iitjammu.ac.in:mailto:media@iitjammu.ac.in
+UID:2o7iu4b4vrik1bgblpghv52582@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Students All;X-NUM-GUESTS=0:mailto:students_all@iitjammu.ac.in
+X-MICROSOFT-CDO-OWNERAPPTID:1703862735
+CREATED:20201008T155525Z
+DESCRIPTION:<div class="" style="font-family: Helvetica\; font-size: 12px\;
+ "><span class="" style="font-family: arial\, sans-serif\;">Hello</span><div
+  class="" style="font-family: Helvetica\; font-size: 12px\;"><span class=""
+  style="font-family: arial\, sans-serif\;">We are pleased to announce the 7
+ th episode of the research talk series\,&nbsp\;</span><b class="" style="fo
+ nt-family: arial\, sans-serif\;">INSIGHT: Exploring beyond imagination</b><
+ span class="" style="font-family: arial\, sans-serif\;">&nbsp\;featuring&nb
+ sp\;</span><b class="" style="font-family: arial\, sans-serif\;"><font colo
+ r="#ff2600" class="">Prof. K L Chopra</font>\,&nbsp\;</b><span class="" sty
+ le="font-family: arial\, sans-serif\;">Padma Shri\, Former Director of IIT 
+ Kharagpur\, in a discussion on ‘</span><b class="" style="font-family: aria
+ l\, sans-serif\;">From Atoms to Thin Films and Nanomatter:&nbsp\;</b><b cla
+ ss="" style="font-family: sans-serif\; font-size: 12.800000190734863px\;">a
+ n insight into&nbsp\;<i class="">ab-initio</i>&nbsp\;creation of matter and
+  novel technology applications</b><b class="" style="font-family: arial\, s
+ ans-serif\;">"</b><span class="" style="font-family: arial\, sans-serif\;">
+ ’ on&nbsp\;</span><font color="#ff2600" class=""><b class="" style="font-fa
+ mily: arial\, sans-serif\;">9th October from 05:00 pm</b><span class="" sty
+ le="font-family: arial\, sans-serif\;">.&nbsp\;</span></font>\n\n-::~:~::~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~:
+ :-\nPlease do not edit this section of the description.\n\nThis event has a
+  video call.\nJoin: https://meet.google.com/ekg-xqzy-bbg\n(US) +1 650-797-1
+ 260 PIN: 780861676#\n\nView your event at https://www.google.com/calendar/e
+ vent?action=VIEW&eid=Mm83aXU0YjR2cmlrMWJnYmxwZ2h2NTI1ODIgc3R1ZGVudHNfYWxsQG
+ lpdGphbW11LmFjLmlu&tok=MjAjbWVkaWFAaWl0amFtbXUuYWMuaW42NGMzMjQyZWYxYjExNmE3
+ NGNiZWY2MmEyNzkxMzU2NzlkYjM2NDRh&ctz=Asia%2FKolkata&hl=en&es=1.\n-::~:~::~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~:
+ :-
+LAST-MODIFIED:20201008T155525Z
+LOCATION:https://zoom.us/j/91480569298
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:INSIGHT 1.7: K L CHOPRA
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

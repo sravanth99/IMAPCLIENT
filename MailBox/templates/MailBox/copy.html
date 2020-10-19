@@ -1,0 +1,18 @@
+
+<div class="btn-group">
+  <button type="button" class="ml-1 btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  COPY
+  </button>
+  <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">TO : </a>
+    <div class="dropdown-divider"></div>
+    {% for f in folders %}
+    <form method="post">
+     {% csrf_token %} 
+    <input class="dropdown-item" name='copyfname' type='hidden' value="{{f.0}}"/>
+    <button type="submit" class="btn btn-light btn-lg" method='post'>{{f.1}}</button>
+    </form>
+    {% endfor %}
+
+  </div>
+</div>

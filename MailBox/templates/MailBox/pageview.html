@@ -1,0 +1,73 @@
+ {% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>MailBOX</title>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg text-light bg-dark">
+<a class="navbar-brand" href="#" disable>IMAP</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item active">
+<a class="nav-link" href="{% url 'pagenated' 'INBOX' 1 %}">INBOX<span class="sr-only">(current)</span></a>
+</li>
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Info
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    {% for k,v in D %}
+    <a class=" nav-link disabled dropdown-item" href="#">{{k}} : {{v}}</a>
+    <div class=" nav-link disabled dropdown-divider"></div>
+    {% endfor %}
+
+</div>
+</li>
+           <li class="text-dark">
+          {% include "MailBox/delete.html" %}
+
+          </li>
+         <li class="text-dark">
+          {% include "MailBox/move.html" %}
+          </li>
+    <li class="text-dark">
+          {% include "MailBox/copy.html" %}
+          </li>
+</ul>
+</div>
+</nav>
+<div class="border-dark border-3 mt-4 mb-4 card" style="width: 70%; margin-left: 15%;box-shadow: 10px 10px 5px #aaaaaa; border: 1px solid #BFBFBF;z-index:10;">
+<div class="card-header bg-info">
+<h4>[students_all] Re: Placement Opportunity with TCS Research - B.Tech,
+ M.Tech & P.hD</h4>
+</div>
+<div class="card-body">
+<blockquote class="blockquote mb-0">
+<div dir="ltr">Dear Students,<div><br></div><div>Research Areas in which TCS is pursuing research are:<br><br><ul><li>Behavioral, Business, and Social Sciences</li><li>Computing Systems</li><li>Cybersecurity and Privacy</li><li>Data and Decision Sciences</li><li>Deep Learning and AI</li><li>Embedded Systems and Robotics</li><li>Foundations of Computing</li><li>Life Sciences</li><li>Media and Advertising</li><li>Physical Sciences</li><li>Software Systems and Services</li></ul><div>Visit: <a href="https://www.tcs.com/tcs-research">https://www.tcs.com/tcs-research</a><br></div><div><br></div><div><div dir="ltr" class="gmail_signature" data-smartmail="gmail_signature"><div dir="ltr"><div><div dir="ltr"><div dir="ltr"><div dir="ltr"><b>Best Regards</b><div>Ridham Gupta</div><div>Asst Manager, Career Development Centre</div><div><b>Indian Institute of Technology Jammu</b></div><div>Mo - 9055112332<br></div></div></div></div></div></div></div></div><br></div></div><br><div class="gmail_quote"><div dir="ltr" class="gmail_attr">On Wed, Oct 7, 2020 at 3:23 PM Training &amp; Placement Office &lt;<a href="mailto:tpo@iitjammu.ac.in">tpo@iitjammu.ac.in</a>&gt; wrote:<br></div><blockquote class="gmail_quote" style="margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex"><div dir="ltr">Dear Students,<div><br></div><div>There is a placement opportunity for the <b>final year </b>students of B.Tech (except Civil), M.Tech &amp; P.hD. </div><div><br></div><div>Details can be viewed here: <a href="https://drive.google.com/drive/folders/1Xd679daOIYFVhu4V-r8VXoq8d60ZflGy?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1Xd679daOIYFVhu4V-r8VXoq8d60ZflGy?usp=sharing</a></div><div><br></div><div>Interested students can apply here: <a href="https://forms.gle/ghUPBw1fC9de697v6" target="_blank">https://forms.gle/ghUPBw1fC9de697v6</a></div><div><i><b>Please note after applying here, you need to apply on the TCS portal. Refer document in the google folder [mandatory].</b></i></div><div><i><b><br></b></i></div><div>Deadline: 10th October Midnight</div><div><br></div><div><font size="2" face="Arial"><b><u>Eligibility</u></b></font><br><ul><li style="margin-left:15px"><font size="2" face="Calibri">Candidate should be <b>2021</b> passing out students only. No <b>2020</b> passing out student is allowed in this drive.</font></li><li style="margin-left:15px"><font size="2" face="Calibri">CGPA  of 8 and above and percentage of 80% or above in <b>highest qualification</b> (Grad or post Grad).</font></li><li style="margin-left:15px"><font size="2" face="Calibri">60% or above 10th, 12th, diploma, graduation.</font></li><li style="margin-left:15px"><font size="2" face="Calibri">No pending backlogs at the time of selection process.</font></li><li style="margin-left:15px"><font size="2" face="Calibri">Steams considered are  Computer Science, ECE, EEE, Mathematics, Statistics, Bio Sciences / Biotechnology / Bioinformatics, Mechanical</font></li><li style="margin-left:15px"><font size="2" face="Calibri">Completion of all courses Class Xth onwards within the stipulated time as specified by your University/Institute and as per the TCSL Selection Guidelines without any extended education. For example, if you have a backlog in the final semester of BE, it is considered as extended education as the stipulated time to complete BE is 4 years.</font></li><li style="margin-left:15px"><font size="2" face="Calibri">It is mandatory to declare the gaps/arrears/backlogs, if any, during your academic and/or work experience. Break-in education should not be due to extended education. Any break in education/work experience should not exceed 24 months and is permissible only for valid reasons. Relevant document proof, as applicable, will be checked for gaps in education.</font></li><li style="margin-left:15px"><font size="2" face="Calibri">Only Full time courses will be considered (Part Time/Correspondence courses will not be considered).</font></li><li style="margin-left:15px"><font size="2" face="Calibri">You should be <b>minimum of 18 years of age and a maximum of 28 years</b> of age to be eligible to apply for the TCSL Selection process</font></li><li style="margin-left:15px"><font size="2" face="Calibri">Candidates who have applied to TCSL and have not been successful in clearing the TCSL selection process are not eligible to re-apply to TCSL within six months from the date on which they had attended such selection test and/or interview. You are not eligible to appear for the TCSL selection process within six months of the previous unsuccessful attempt.</font></li></ul><font size="2" face="Arial"><b><u>Job Description</u></b></font><br><br><font size="2" face="Arial">TCS Research and Innovation link is </font><a href="https://www.tcs.com/research-innovation" target="_blank"><font size="2" color="blue" face="Arial">https://www.tcs.com/research-innovation</font></a><font size="2" face="Arial">.  </font><br><font size="2" face="Arial"> </font><br><font color="#0000ff"><font size="2" face="Arial"><b>Also, students need to register on TCS Next step portal and fill the complete application form. (Help Documents are uploaded in google folder)</b></font><br><br><font size="2" face="Arial"><b>Important Note: No student will be allowed to sit for the interview process without the application form and complete educational documents. It is a mandatory step and needs to be followed strictly.</b></font>  </font><br></div><div><br></div><div><div><div dir="ltr"><div dir="ltr"><div><div dir="ltr"><div dir="ltr"><div dir="ltr"><b>Best Regards</b><div>Ridham Gupta</div><div>Manager, Career Development Centre</div><div><b>Indian Institute of Technology Jammu</b></div><div>Mo - 9055112332<br></div></div></div></div></div></div></div></div></div></div>
+</blockquote></div>
+
+</blockquote>
+{% if  0 >  0%}  <hr> <h5> 0 Attachments </h5>{% endif %}
+</div>
+
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
